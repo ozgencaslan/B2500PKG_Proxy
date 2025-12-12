@@ -1,5 +1,10 @@
 name: B2500PKG_Proxy
-arch: amd64
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
 version: "1.0"
 slug: b2500pkg_proxy
 description: MQTT-Proxy für Geräte mit gleicher Client-ID
