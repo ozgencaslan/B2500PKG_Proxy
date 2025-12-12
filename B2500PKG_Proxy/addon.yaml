@@ -9,8 +9,14 @@ ingress: false
 options:
   devices:
     - port: 1901
-      username: ""
-      password: ""
+      username: "user1"
+      password: "pass1"
+    - port: 1902
+      username: "user2"
+      password: "pass2"
+    - port: 1903
+      username: "user3"
+      password: "pass3"
 schema:
   devices:
     - port: int
