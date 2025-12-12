@@ -1,5 +1,8 @@
 name: B2500PKG_Proxy
 arch: amd64
+version: "1.0"
+slug: b2500pkg_proxy
+description: MQTT-Proxy für Geräte mit gleicher Client-ID
 options:
   devices:
     - port: 1901
