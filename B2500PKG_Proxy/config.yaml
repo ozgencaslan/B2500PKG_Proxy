@@ -1,4 +1,5 @@
 name: B2500PKG_Proxy
+arch: amd64
 options:
   devices:
     - port: 1901
